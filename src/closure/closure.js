@@ -4,8 +4,8 @@ const moneyBox = (coins) => {
     console.log(`MoneyBox: $${saveCoins}`);
 }
 
-MoneyBox(5);
-MoneyBox(10);
+moneyBox(5);
+moneyBox(10);
 
 const moneyBox = () => {
     var saveCoins = 0;
